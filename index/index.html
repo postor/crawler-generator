@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>crawler generator</title>
+  </head>
+  <body>
+    <div>
+      <div style="display:flex">
+          <input id="url" style="flex: 1" value="https://www.github.com/" > <button id="go">go</button>
+      </div>
+      <webview 
+        id="web" 
+        src="https://www.github.com/" 
+        style="width:100%;height:800px"
+        nodeIntegration 
+        preload="./webview-preload.js"
+      ></webview>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
