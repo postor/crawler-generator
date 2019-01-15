@@ -2,7 +2,7 @@
 
 wysiwyg crawaler generator using electron and puppeteer | 基于electron和puppeteer的所见即所得爬虫
 
-[screenshot](./screenshot.gif)
+![screenshot](./screenshot.gif)
 
 ## generate code | 生成爬虫代码
 
