@@ -22,7 +22,6 @@
     "electron": "^4.0.1"
   },
   "dependencies": {
-    "jquery": "^3.3.1",
-    "puppeteer": "^1.11.0"
+    "jquery": "^3.3.1"
   }
 }
