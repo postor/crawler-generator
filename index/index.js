@@ -5,22 +5,18 @@ $(document).ready(() => {
   const $go = $('#go')
   const $web = $('#web')
   const $code = $('#code')
-
+  // 收到webview消息更新代码
   $web[0].addEventListener('ipc-message', event => {
-    // prints "ping"
-    console.log(event)
     $code.text(getCode($url.val(),event.channel))
-  })
-
+  })  
   $web[0].addEventListener('did-stop-loading', ()=>{
-    //$web[0].executeJavaScript('pingHost("ping",{a:1})')
+    // $web[0].openDevTools()
   })
-
+  // 页面跳转
   $go.click(()=>{
     $web[0].src = $url.val()
   })
-
-  
+  // 生成代码  
   function getCode(url,selector){
     return `
 const puppeteer = require('puppeteer');
