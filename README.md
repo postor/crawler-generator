@@ -13,9 +13,9 @@ npm i
 npm run start
 ```
 
-- fill your url and go
-- click on data which you want, it's border will turn red
-- click on it again to confirm and generate code  
+- fill your url and go | 输入 url 并点击 go 按钮
+- click on data which you want, it's border will turn red | 在你需要的数据上单击，它的边框会变红
+- click on it again to confirm and it will generate code | 再次点击，它会生成代码
 
 
 ## use code | 使用代码
