@@ -1,11 +1,12 @@
 {
   "name": "crawler-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --entry ./src/webview-preload.js --output-filename webview-preload.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,12 @@
   },
   "homepage": "https://github.com/postor/crawler-generator#readme",
   "devDependencies": {
-    "electron": "^4.0.1"
+    "@medv/finder": "^1.1.2",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
+    "electron": "^4.0.1",
     "jquery": "^3.3.1"
   }
 }
