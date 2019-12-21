@@ -4,6 +4,8 @@ wysiwyg crawaler generator using electron and puppeteer | 基于electron和puppe
 
 ![screenshot](./screenshot.gif)
 
+qucik glance: https://www.youtube.com/watch?v=eAn1KRiM6vE&list=PLM1v95K5B1ntVsYvNJIxgRPppngrO_X4s
+
 ## generate code | 生成爬虫代码
 
 ```
