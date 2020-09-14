@@ -27,6 +27,7 @@ $(document).ready(() => {
   })
   // 页面跳转
   $go.click(() => {
+    console.log('go?')
     $web[0].src = $url.val()
   })
 
